@@ -17,6 +17,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 <body>
 	<div id="fb-root"></div>
@@ -54,20 +55,31 @@
 			</div>
 			<div class="col-md-7" id="campaign-page">
 				<div class="page-header"><h1 class="text-center">BIN IT! <br> <small>It's only fair...</small></h1></div>
-				<div class="row">
-					<div class="col-xs-12 col-md-12">
-						<ul class="nav nav-pills">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">Photos <span class="label label-primary">18</span></a></li>
-						<li><a href="#">Events <span class="label label-primary">3</span></a></li>
-					</ul>
-					</div>
-				</div>
-					
+				<nav class="navbar navbar-default" role="navigation">
+				 	<div class="container-fluid">
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        	<span class="sr-only">Toggle Navigation</span>
+					        	<span class="icon-bar"></span>
+					        	<span class="icon-bar"></span>
+					        	<span class="icon-bar"></span>
+					       	</button>
+					    </div>
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      	<ul class="nav navbar-nav">
+								<li class="active"><a href="campaign-page.html">Home</a></li>
+								<li><a href="campaign-photos.html">Photos <span class="label label-primary">18</span></a></li>
+								<li><a href="#">Events <span class="label label-primary">3</span></a></li>
+							</ul>
+					    </div><!-- /.navbar-collapse -->
+				  	</div><!-- /.container-fluid -->
+				</nav>					
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="row">
-							<div class="col-xs-12 col-md-8">
+							<div class="col-xs-12 col-md-8 campaign-feed">
 								<div class="panel panel-default">
 									<img class="col-sm-12" src="img/campaigns/campaign1.jpg" alt="">
 									<div class="clear"></div>
@@ -82,7 +94,29 @@
 									</p>
 								</div>
 								<div class="panel panel-default">
+									<div class="panel-body">
+										<form action="" class="form-horizontal" role="form">
+											<div class="form-group m-0 ">
+												<label for="campaign-status-update" class="sr-only"></label>
+												<textarea id="campaign-status-input" placeholder="What's on your mind?"></textarea>
+											</div>
+										<div class="campaign-status-update-controls well" style="display: none;">
+											<span class="h4"><span class="glyphicon glyphicon-picture" id="upload-photo-btn"></span></span>
+										</div>
+										<div id="photo-upload" style="display: none;">
+									        <span class="filename"></span>
+									        <input type="file" name="upl" />
+										</div>
+										</form>
+										<button type="submit" class="btn btn-primary campaign-status-update-controls" style="display: none;">Post</button>
+									</div>
+								</div>
+								<div class="panel panel-default">
 									<img class="col-sm-12" src="img/campaigns/shared/img1.jpg" alt="">
+									<div class="clear"></div>
+								</div>
+								<div class="panel panel-default">
+									<img class="col-sm-12" src="http://placehold.it/500/" alt="">
 									<div class="clear"></div>
 								</div>
 							</div>
@@ -137,13 +171,13 @@
 										<h4 class="text-center">Campaign Owners</h4>
 									</div>
 									<div class="panel-body">
-										<a href="#"><img src="/img/members/1.jpg" alt=""> <span class="h4 m-l-20">John Doe</span></a>
+										<a href="#"><img src="http://placehold.it/40/ddf" alt=""> <span class="h4 m-l-20">John Doe</span></a>
 										<hr>
-										<a href="#"><img src="/img/members/2.jpg" alt=""> <span class="h4 m-l-20">John Doe</span></a>
+										<a href="#"><img src="http://placehold.it/40/ddf" alt=""> <span class="h4 m-l-20">John Doe</span></a>
 										<hr>
-										<a href="#"><img src="/img/members/3.jpg" alt=""> <span class="h4 m-l-20">John Doe</span></a>
+										<a href="#"><img src="http://placehold.it/40/ddf" alt=""> <span class="h4 m-l-20">John Doe</span></a>
 										<hr>
-										<a href="#"><img src="/img/members/4.jpg" alt=""> <span class="h4 m-l-20">John Doe</span></a>
+										<a href="#"><img src="http://placehold.it/40/ddf" alt=""> <span class="h4 m-l-20">John Doe</span></a>
 									</div>
 								</div>
 								<div class="panel panel-default">
@@ -165,9 +199,10 @@
 			</div>
 		</div>
 	</div>
-
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
+	<!-- JavaScript Includes -->
+
 </body>
 </html>
