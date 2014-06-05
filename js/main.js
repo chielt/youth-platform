@@ -9,7 +9,7 @@ $( document ).ready(function() {
     //e.preventDefault();
   });
 
-	$('#btn-follow-campaign').on('click', function(e) {
+  $('#btn-follow-campaign').on('click', function(e) {
     var btnfollow = $(this);
  
     btnfollow.toggleClass("btn-primary btn-success"); //you can list several class names 
@@ -19,6 +19,36 @@ $( document ).ready(function() {
     : btnfollow.html('Follow this campaign');
     //e.preventDefault();
   });
+
+  $('.btn-going').on('click', function(e) { 
+    $(this).toggleClass("btn-primary btn-success"); //you can list several class names 
+
+    $(this).html() == "Going"
+    ? $(this).html('<span class="glyphicon glyphicon-ok"></span> Going')
+    : $(this).html('Going');
+
+    $(this).html() == '<span class="glyphicon glyphicon-ok"></span> Going' 
+    ? $(this).siblings('.btn-maybe').html('Maybe going').addClass('disabled')
+    : $(this).siblings('.btn-maybe').removeClass('disabled');
+     
+    //e.preventDefault();
+  });
+
+	$('.btn-maybe').on('click', function(e) { 
+    $(this).toggleClass("btn-primary btn-success"); //you can list several class names 
+
+    $(this).html() == "Maybe going"
+    ? $(this).html('<span class="glyphicon glyphicon-ok"></span> Maybe going')
+    : $(this).html('Maybe going');
+
+    $(this).html() == '<span class="glyphicon glyphicon-ok"></span> Maybe going' 
+    ? $(this).siblings('.btn-going').html('Going').addClass('disabled')
+    : $(this).siblings('.btn-going').removeClass('disabled');
+     
+    //e.preventDefault();
+  });
+
+
 
   $("#showPetition").click(function(){
     $("#petition-form").slideDown("fast");
@@ -47,10 +77,12 @@ $('#upload-photo-btn').click(function(){
   $('#photo-upload').show('fast');
 });
 
- $(function() {
-     $("input:file").live(function (){
-       var fileName = $(this).val();
-       $(".filename").html(fileName);
-     });
+$(function() {
+  $("input:file").live(function (){
+    var fileName = $(this).val();
+    $(".filename").html(fileName);
   });
+});
+
+
 
