@@ -1,0 +1,653 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tool",
+				"tooltip_text"
+			],
+			[
+				"class",
+				"class_name"
+			],
+			[
+				"fli",
+				"flip-clock-wrapper"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"v",
+				"val"
+			],
+			[
+				"btn",
+				"btn-maybe"
+			],
+			[
+				"btn-",
+				"btn-primary"
+			],
+			[
+				"b",
+				"btn-success"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"pos",
+				"pos-r	position: relative;"
+			],
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"span",
+				"span"
+			],
+			[
+				"arti",
+				"artist_a"
+			],
+			[
+				"artist",
+				"artist_link"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ARTIST",
+				"ARTIST_URL"
+			],
+			[
+				"artis",
+				"artistID"
+			],
+			[
+				"similar",
+				"similarArtists"
+			],
+			[
+				"ar",
+				"artistUrl"
+			],
+			[
+				"exc",
+				"execute"
+			],
+			[
+				"exe",
+				"except"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"session",
+				"session_destroy"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"group",
+				"group1_q"
+			],
+			[
+				"SE",
+				"_SESSION"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"question",
+				"question_set"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"answe",
+				"answer_given"
+			],
+			[
+				"get",
+				"getTime"
+			],
+			[
+				"start",
+				"start_time"
+			],
+			[
+				"star",
+				"start_time_ms"
+			],
+			[
+				"st",
+				"start_time"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"profile-op",
+				"profile-option-save"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"marg",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "discussion.html",
+			"settings":
+			{
+				"buffer_size": 11134,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "discussion-page.html",
+			"settings":
+			{
+				"buffer_size": 17619,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "event-files.html",
+			"settings":
+			{
+				"buffer_size": 6521,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"mote",
+				"Mote"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/event-discussion.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/blog.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/qanda-page.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/qanda.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/blogpost.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/campaign-discussion.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/campaign-events.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/campaign-files.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/campaign-members.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/campaign-page.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/campaign-photos-album.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/campaign-photos.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/campaigns-feed.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/campaigns-list.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/creativity-page.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/creativity.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/discussion.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/event-files.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/event-members.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/event-page.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/event-photos-album.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/event-photos.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/events-calendar.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/events-feed.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/events-list.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/index2.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/test.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/css/styles.css",
+		"/Users/michieldekker/Downloads/Orange Is The New Black Season 1 Complete 480p HDTV x264 [Multi-Sub] [DexzAery]/Orange Is The New Black S01E01-I Wasn't Ready.srt",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/css/tooltip.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/js/tooltip.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/event-organizers.html",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/c91dc8e8-cf4c-4d74-be73-a470498ec84d/domains/michiel-dekker.nl/public_html/countdown/index.html",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/c91dc8e8-cf4c-4d74-be73-a470498ec84d/domains/michiel-dekker.nl/public_html/countdown/kitchenaid.html",
+		"/Users/michieldekker/Library/Containers/com.apple.mail/Data/Library/Application Support/Mail/Stationery/Apple/Contents/Resources/Custom/Contents/Resources/My Cover Letter.mailstationery/Contents/Resources/content.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/clock/index.html",
+		"/Users/michieldekker/Dropbox/Werk zoeken/mail template/content.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/clock/examples/countdown-to-new-years-without-seconds.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/js/jquery.autosize.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/clock/examples/countdown-start-callback.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/clock/examples/base.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/test,html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/js/autogrow.min.js",
+		"/Users/michieldekker/Downloads/ultimatedelman-autogrow-224d37d/autogrow.jquery.json",
+		"/Users/michieldekker/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/laravel/public/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/info.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/calendar/example/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/calendar/js/responsive-calendar.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/css/bootstrap.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/Calendario/css/custom_1.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/Calendario/css/calendar.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/Calendario/css/demo.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/youth-platform/Calendario/index2.html",
+		"/Users/michieldekker/Library/Containers/com.apple.mail/Data/Library/Application Support/Mail/Stationery/Apple/Contents/Resources/Custom/Contents/Resources/My Cover Letter.mailstationery/Contents/Resources/Description.plist",
+		"/Users/michieldekker/Dropbox/Werk zoeken/mail template/content2.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/css/styles.css",
+		"/Users/michieldekker/Dropbox/Werk zoeken/mail template/Description.plist",
+		"/Applications/XAMPP/xamppfiles/htdocs/campaign-page.html",
+		"/Users/michieldekker/Library/Containers/com.apple.mail/Container.plist",
+		"/Users/michieldekker/Library/Containers/com.apple.mail/Data/Library/Application Support/Mail/Stationery/Apple/Contents/Resources/Custom/Contents/Resources/THIS_IS_MY_STATIONARY_ID1/Contents/Resources/Description.plist",
+		"/Users/michieldekker/Library/Containers/com.apple.mail/Data/Library/Application Support/Mail/Stationery/Apple/Contents/Resources/Custom/Contents/Resources/Cover Letter.mailstationery/Contents/Resources/Description.plist",
+		"/Users/michieldekker/Library/Containers/com.apple.mail/Data/Library/Application Support/Mail/Stationery/Apple/Contents/Resources/Custom/Contents/Resources/Cover letter.mailstationery/Contents/Resources/Description.plist",
+		"/Users/michieldekker/Library/Containers/com.apple.mail/Data/Library/Application Support/Mail/Stationery/Apple/Contents/Resources/Custom/Contents/Resources/Cover letter.mailstationery/Contents/Resources/content.html",
+		"/Users/michieldekker/Desktop/cover-letter.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/js/main.js",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/bfec3755-f0b6-44f5-a963-5f5b1cfd163f/domains/michiel-dekker.nl/public_html/survey/framework/messages/config.php",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/bfec3755-f0b6-44f5-a963-5f5b1cfd163f/domains/michiel-dekker.nl/public_html/survey/locale/sq/index.html",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/bfec3755-f0b6-44f5-a963-5f5b1cfd163f/domains/michiel-dekker.nl/public_html/survey/locale/sq/LC_MESSAGES/sq.mo",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/bfec3755-f0b6-44f5-a963-5f5b1cfd163f/domains/michiel-dekker.nl/public_html/youth-platform/css/styles.css",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/916a90e2-8bcb-4f40-a610-f82ae7930cfd/domains/michiel-dekker.nl/public_html/youth-platform/creativepost.html",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/da859872-565e-4975-8181-8b65d76fa880/domains/michiel-dekker.nl/public_html/youth-platform/css/styles.css",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/bfec3755-f0b6-44f5-a963-5f5b1cfd163f/domains/michiel-dekker.nl/public_html/youth-platform/creativepost.html",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/da859872-565e-4975-8181-8b65d76fa880/domains/michiel-dekker.nl/public_html/youth-platform/creativity.html",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/da859872-565e-4975-8181-8b65d76fa880/domains/michiel-dekker.nl/public_html/youth-platform/creativepost.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/creativity.html",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/16659ab4-bc52-4c98-9abd-f4d8ee8f83f4/domains/michiel-dekker.nl/public_html/youth-platform/creativity.html",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/58069ac6-1413-45ab-a7e6-79650e5233c6/domains/michiel-dekker.nl/public_html/youth-platform/css/styles.css",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/da859872-565e-4975-8181-8b65d76fa880/domains/michiel-dekker.nl/public_html/css/styles.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/blog.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/blogpost.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/qanda.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/css/blog.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/css/reset.css",
+		"/Users/michieldekker/Dropbox/Universiteit/Master/WS/backup 5-04/readme.txt",
+		"/Users/michieldekker/Dropbox/Universiteit/Master/WS/backup 5-04/www/index.php",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/132d660d-c037-4bc4-a08b-3d78b6cf3f46/var/scraper/get_con.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/132d660d-c037-4bc4-a08b-3d78b6cf3f46/var/scraper/get_con.pyc",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/132d660d-c037-4bc4-a08b-3d78b6cf3f46/usr/lib/cgi-bin/handleForm.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/132d660d-c037-4bc4-a08b-3d78b6cf3f46/var/scraper/get_image.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/132d660d-c037-4bc4-a08b-3d78b6cf3f46/var/scraper/build_graph.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/132d660d-c037-4bc4-a08b-3d78b6cf3f46/var/scraper/queue_dump.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/132d660d-c037-4bc4-a08b-3d78b6cf3f46/var/scraper/queue.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/132d660d-c037-4bc4-a08b-3d78b6cf3f46/var/scraper/artist.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/132d660d-c037-4bc4-a08b-3d78b6cf3f46/var/scraper/scrapeArtist.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/132d660d-c037-4bc4-a08b-3d78b6cf3f46/var/scraper/queue_to_file.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/132d660d-c037-4bc4-a08b-3d78b6cf3f46/var/scraper/queue_method.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/132d660d-c037-4bc4-a08b-3d78b6cf3f46/var/scraper/index.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/39535653-8354-47e0-b707-97903107c4d2/usr/lib/command-not-found",
+		"/Users/michieldekker/Downloads/websearch.sql",
+		"/Users/michieldekker/Dropbox/Universiteit/Master/MS/Mobile Systems/Submission/readme.txt",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/3fa0355c-64fd-4e88-8341-75c8c424b69a/var/www/index.php",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/3fa0355c-64fd-4e88-8341-75c8c424b69a/var/scraper/get_con.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/3fa0355c-64fd-4e88-8341-75c8c424b69a/usr/lib/cgi-bin/handleForm.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78ddce70-ccd7-4910-a9da-0d510057475f/usr/lib/cgi-bin/handleForm.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/9c1d7620-7f13-45f5-9cb2-cc15bc59a8af/usr/lib/cgi-bin/handleForm.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78ddce70-ccd7-4910-a9da-0d510057475f/var/www/index.php",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78ddce70-ccd7-4910-a9da-0d510057475f/var/scraper/get_image.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78ddce70-ccd7-4910-a9da-0d510057475f/var/scraper/get_con.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78ddce70-ccd7-4910-a9da-0d510057475f/var/scraper/build_graph.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78ddce70-ccd7-4910-a9da-0d510057475f/var/www/reset.css",
+		"/Users/michieldekker/Desktop/test.html",
+		"/Users/michieldekker/Desktop/handleForm.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78ddce70-ccd7-4910-a9da-0d510057475f/usr/lib/cgi-bin/test.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78ddce70-ccd7-4910-a9da-0d510057475f/usr/lib/cgi-bin/handleMyForm.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78ddce70-ccd7-4910-a9da-0d510057475f/var/scraper/handleForm.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78ddce70-ccd7-4910-a9da-0d510057475f/var/scraper/artist.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78ddce70-ccd7-4910-a9da-0d510057475f/var/scraper/queue.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78ddce70-ccd7-4910-a9da-0d510057475f/var/scraper/scrapeArtist.py",
+		"/Users/michieldekker/Downloads/websearch-data.sql",
+		"/Users/michieldekker/Dropbox/wifipass",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78968dd1-49af-47e8-a9f3-1b8398950ebc/var/www/index.php",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78968dd1-49af-47e8-a9f3-1b8398950ebc/var/scraper/get_image.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78968dd1-49af-47e8-a9f3-1b8398950ebc/var/scraper/queue.py",
+		"/private/var/folders/vf/5dj86h4104qg1tjs8rx55pch0000gn/T/78968dd1-49af-47e8-a9f3-1b8398950ebc/var/scraper/artist.pyc"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"textarea",
+			"creative-page.html",
+			"disqua",
+			"When should we organize this event?",
+			"calendar",
+			"http://placehold.it/200",
+			"campaign-photos-album.html",
+			"calendar",
+			"event feed",
+			"</h1>",
+			"Maybe",
+			"badge-warning",
+			"<a href=\"#\"",
+			"<a href=\"#\" >\n									      <img src=\"http://placehold.it/200\" alt=\"\">\n									    </a>",
+			"class=\"m-b-5\"",
+			"&#13;",
+			"body {\n	background: #eee;\n}\n\n.clear {\n	clear: both;\n}\n\ndiv.panel {\n	padding: 15px;\n}\n\n/* SIDEBAR */\n\ndiv.sidebar-profile, div.sidebar-category {\n	margin-bottom: 20px;\n}\n\ndiv.sidebar-profile > img {\n	width: 40px;\n	margin-right: 10px;\n}\n\ndiv.sidebar-profile > a {\n	text-decoration: none;\n}\n\nsidebar-category li {\n	margin-bottom: 15px;\n}\n\ndiv.sidebar-category li a{\n	text-decoration: none;\n}\n\n/* FEED */\ndiv.feed-item img {\n	display:block;\n}\n\n\n.feed-item-author {\n	display: inline-block;\n	margin-top: -10px;\n	padding-bottom: 15px;\n	font-style: italic;\n}\n\ndiv.feed-item h3 {\n	margin-bottom: 0;\n	padding-bottom: 0;\n}\n\n/* BLOG */\na.featured-blog {\n	text-decoration: none;\n	color: #000;\n	font-size: 1.5em;\n	margin-top: 20px;\n	position: relative;\n	float: left;\n}\n\na.featured-blog img {\n	max-width: 80%;\n	min-width: 80%;\n	min-height: 150px;\n}\n\na.featured-blog .image-container {\n	height: 150px;\n	overflow: hidden;\n}\n\na.featured-blog:hover, a.featured-blog:focus {\n	color: #428bca;\n}\n\n/* Q&A */\na.question-title {\n	font-weight: bold;\n}\n\n/* CREATIVITY */\n#creativity-pane .thumbnail .image-container {\n	max-height: 120px;\n	overflow: hidden;\n}\ndiv#campaign-page ul.nav-pills {\n	font-size: 1.1em;\n	font-weight: bolder;\n}\n\ndiv#campaign-page ul.nav-pills a {\n	color: #666;\n}\n\ndiv#campaign-page ul.nav-pills {\n	margin-bottom: 10px;\n}\n\ndiv#campaign-page ul.nav-pills a:hover {\n	color: #333;\n}\n\ndiv#campaign-page ul.nav-pills li.active a{\n	background-color: transparent;\n	border-bottom: 3px solid #428bca;\n	color: #333;	\n}\n\ndiv#campaign-page table.meta {\n	list-style-type: none;\n	padding: 0;\n	margin: 0;\n	font-size: 18px;\n}\n\ndiv#campaign-page table.meta td {\n	padding-right: 20px;\n}\n\ndiv#campaign-page span.meta-sub {\n	font-size: 0.5em;\n}\n\n.text-big {\n	font-weight: 500;\n	font-size: 2em;\n}\n\ndiv#petition-box {\n	background-color: #122334;\n}",
+			"creativity-more-same-artist",
+			"col-md-3",
+			"/blogpost.html",
+			"http://localhost",
+			"}",
+			"(",
+			"similar",
+			">\n",
+			"secondary",
+			"header-main",
+			"masthead",
+			"\">\n",
+			"<!doctype html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>Experiment</title>\n	<link href=\"css/styles.css\" rel=\"stylesheet\" media=\"screen\">\n</head>\n<body>\n	<div id=\"container\">\n		<div class=\"part questionaire\">\n			<form action=\"savedata.php\" method=\"post\">\n				<table>\n					<tr>\n						<td>Age</td>\n						<td><input type=\"text\" name=\"age\"></td>\n					</tr>\n					<tr>\n						<td>Gender</td>\n						<td>\n							<select name=\"gender\" id=\"\"gender>\n								<option value=\"0\"></option>\n								<option value=\"M\">Male</option>\n								<option value=\"F\">Female</option>\n							</select>\n						</td>\n					</tr>\n					<tr>\n						<td>\n							Highest obtained diploma\n							<br>\n							<span style=\"font-size: 0.8em\">(e.g. University Bachelor)</span>\n						</td>\n						<td>\n							<input type=\"text\" name=\"education\">\n						</td>\n					</tr>\n					<tr>\n						<td>Profession</td>\n						<td><input type=\"text\" name=\"profession\"></td>\n					</tr>\n					<tr>\n						<td><input type=\"submit\" value=\"Next\"></td>\n						<td></td>\n					</tr>\n				</table>\n			</form>\n		</div>\n	</div>\n	<script src=\"http://code.jquery.com/jquery.js\"></script>\n    <script src=\"js/main.js\"></script>\n</body>\n</html>",
+			"_V1.mp4",
+			"alt=\"button\"",
+			"type='radio'",
+			"name=\"",
+			"type=\"radio\"",
+			"<?php echo ",
+			"</td>",
+			"<td>",
+			"4",
+			"text",
+			"\";\n",
+			"linked",
+			"linkedTV",
+			"itemize",
+			"Recommendation",
+			"usecase",
+			"use case",
+			"use cases",
+			"2000",
+			"br",
+			"xs",
+			"html",
+			"permission",
+			"profile-tekst",
+			"profile-container",
+			".header",
+			"profiles",
+			"[PROFILE_OPTIONS]",
+			">\n",
+			"Facebook",
+			"=\"#\"></",
+			"form",
+			";\n",
+			"tr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"creativity-page.html",
+			"What event should we organize next fo this campaign?",
+			"holder.js/200x200",
+			"event-photos-album.html",
+			"<a href=\"campaign-photos-album.html\"",
+			"<a href=\"campaign-photos-album.html\" >\n									      <img src=\"http://placehold.it/200\" alt=\"\">\n									    </a>",
+			"",
+			"col-sm-3",
+			"blogpost.html",
+			"",
+			"html",
+			"_V2.mp4",
+			"alt=\"im\"",
+			"type=\"radio\"",
+			"name='",
+			"type='radio'",
+			"",
+			"radio"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "discussion.html",
+					"settings":
+					{
+						"buffer_size": 11134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10099,
+								9488
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1679.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "discussion-page.html",
+					"settings":
+					{
+						"buffer_size": 17619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3174,
+								3174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1150.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "event-files.html",
+					"settings":
+					{
+						"buffer_size": 6521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6504,
+								6061
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2446.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true
+}

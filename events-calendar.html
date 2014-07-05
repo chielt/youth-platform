@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="UTF-8">
+	
+	<title>Youth Platform</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/blog.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="calendar/css/responsive-calendar.css">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="blog-masthead">
+		<div class="row">
+	    	<nav class="blog-nav col-md-10 col-md-offset-2">
+	      		<a class="blog-nav-item" href="index.html"><strong>Youth</strong>Platform</a>
+		        <a class="blog-nav-item" href="blog.html">Blog</a>
+		        <a class="blog-nav-item" href="campaigns-feed.html">Campaigns</a>
+		        <a class="blog-nav-item active" href="events-feed.html">Events</a>
+		        <a class="blog-nav-item" href="creativity.html">Creativity</a>
+		        <a class="blog-nav-item" href="qanda.html">Questions &amp; Answers</a>
+		        <a class="blog-nav-item" href="discussion.html">Discussions</a> 
+	    	</nav>
+	    </div>
+    </div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="sidebar-profile">
+					<img src="img/profile/default-profile-image.png" alt="">
+					<a href="#"><strong>Michiel Dekker</strong></a>
+					<div class="clear"></div>
+				</div>
+				<div class="sidebar-category">
+					<ul class="nav nav-pills nav-stacked">
+						<li><a href="events-feed.html">Events feed</a></li>
+						<li class="active"><a href="events-calendar.html">Calendar</a></li>
+					</ul>
+					<table class="table m-t-30">
+						<thead>
+							<tr>
+								<th>My Events</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="#">Event Title</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">Event Title</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">Event Title</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">Event Title</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">Event Title</a></td>
+							</tr>
+							<tr>
+								<td><a href="#">Event Title</a></td>
+							</tr>
+							<tr>
+								<td>
+									<button class="pull-right btn btn-default"><span class="h5"><span class="glyphicon glyphicon-plus"></span> CREATE EVENT</span></button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-7" id="campaign-calendar">
+				<div class="panel panel-default">
+					<!-- Responsive calendar - START -->
+			    	<div class="responsive-calendar">
+			        <div class="controls">
+			            <a class="pull-left" data-go="prev"><div class="btn btn-primary">Prev</div></a>
+			            <h4><span data-head-year></span> <span data-head-month></span></h4>
+			            <a class="pull-right" data-go="next"><div class="btn btn-primary">Next</div></a>
+			        </div><hr/>
+			        <div class="day-headers">
+			          <div class="day header">Mon</div>
+			          <div class="day header">Tue</div>
+			          <div class="day header">Wed</div>
+			          <div class="day header">Thu</div>
+			          <div class="day header">Fri</div>
+			          <div class="day header">Sat</div>
+			          <div class="day header">Sun</div>
+			        </div>
+			        <div class="days" data-group="days">
+			          
+			        </div>
+			      </div>
+			      <!-- Responsive calendar - END -->
+				</div>
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- Calendar -->
+	<script src="calendar/js/responsive-calendar.js"></script>
+
+    <!-- End Calendar -->
+</body>
+</html>
