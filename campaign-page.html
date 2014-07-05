@@ -33,11 +33,11 @@
 	    	<nav class="blog-nav col-md-10 col-md-offset-2">
 	      		<a class="blog-nav-item" href="index.html"><strong>Youth</strong>Platform</a>
 		        <a class="blog-nav-item" href="blog.html">Blog</a>
-		        <a class="blog-nav-item active" href="#">Campaigns</a>
-		        <a class="blog-nav-item" href="#">Events</a>
+		        <a class="blog-nav-item active" href="campaigns-feed.html">Campaigns</a>
+		        <a class="blog-nav-item" href="events-feed.html">Events</a>
 		        <a class="blog-nav-item" href="creativity.html">Creativity</a>
 		        <a class="blog-nav-item" href="qanda.html">Questions &amp; Answers</a>
-		        <a class="blog-nav-item" href="#">Discussions</a> 
+		        <a class="blog-nav-item" href="discussion.html">Discussions</a>
 	    	</nav>
 	    </div>
     </div>
@@ -50,11 +50,31 @@
 					<div class="clear"></div>
 				</div>
 				<div class="sidebar-category">
-					
+					<ul class="nav nav-pills nav-stacked">
+						<li><a href="campaigns-feed.html">Campaign Feed</a></li>
+						<li><a href="campaigns-list.html">All campaigns</a></li>
+					</ul>
+					<table class="table m-t-30">
+						<thead>
+							<tr>
+								<th>My Campaigns</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="campaign-page.html">Bin It</a></td>
+							</tr>
+							<tr>
+								<td>
+									<button class="pull-right btn btn-default"><span class="h5"><span class="glyphicon glyphicon-plus"></span> CREATE Campaign</span></button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 			<div class="col-md-7" id="campaign-page">
-				<div class="page-header"><h1 class="text-center">BIN IT! <br> <small>It's only fair...</small></h1></div>
+				<div class="panel panel-default"><h1 class="text-center">BIN IT! <br> <small>It's only fair...</small></h1></div>
 				<nav class="navbar navbar-default" role="navigation">
 				 	<div class="container-fluid">
 					    <!-- Brand and toggle get grouped for better mobile display -->
@@ -71,8 +91,10 @@
 					      	<ul class="nav navbar-nav">
 								<li class="active"><a href="campaign-page.html">Home</a></li>
 								<li><a href="campaign-photos.html">Photos <span class="label label-primary">18</span></a></li>
-								<li><a href="#">Events <span class="label label-primary">3</span></a></li>
-							</ul>
+								<li><a href="campaign-events.html">Events <span class="label label-primary">3</span></a></li>
+								<li><a href="campaign-files.html">Files</span></a></li>
+								<li><a href="campaign-members.html">Members</a></li>
+								<li><a href="campaign-discussion.html">Discussion</a></li>
 					    </div><!-- /.navbar-collapse -->
 				  	</div><!-- /.container-fluid -->
 				</nav>					
@@ -112,13 +134,62 @@
 									</div>
 								</div>
 								<div class="panel panel-default">
-									<img class="col-sm-12" src="img/campaigns/shared/img1.jpg" alt="">
-									<div class="clear"></div>
+									<div class="post-heading">
+										<img src="holder.js/32x32" alt="" class="m-r-15"> <a href="#" ><strong>Michiel Dekker </strong></a> <span class="glyphicon glyphicon-chevron-right"></span> <a href="campaign-page.html"><strong>Bin It</strong></a>
+									</div>
+									<hr>
+									<div class="thumbnail">
+										<a href="#" class="no-underline caption"><span class="h3">This is a title for this post</span></a>
+										<a href="#"><img src="img/campaigns/shared/img1.jpg" alt=""></a>
+										<div class="caption">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et enim eu lorem interdum convallis. Curabitur interdum, lorem et fermentum tincidunt, lacus odio condimentum turpis, vel euismod diam purus eu sapien. 
+											</p>
+										</div>
+									</div>
+									<a href="javascript:void(0);" class="like-link m-r-10">like</a>
+									<span class="m-r-10">&middot;</span>
+									<a href="javascript:void(0);" class="comment-link m-r-10">comment</a>		
+									<span class="m-r-10">&middot;</span>
+									<a href="javascript:void(0);"><span class="glyphicon glyphicon-thumbs-up"></span> <span class="like-counter">1</span></a>
+									<span class="m-r-10">&middot;</span>
+									<a href="javascript:void(0);" class="m-r-10"><span class="glyphicon glyphicon-comment m-r-5"></span> <span class="comment-counter">3</span></a>
+									<div class="comment-pane m-0" style="display: none;">
+										<form action="event-page.html" class="form-horizontal" role="form">
+											<div class="form-group m-0">
+												<label for="campaign-status-update" class="sr-only"></label>
+												<textarea id="comment-input-2" name="comment-2" class="comment-input" placeholder="Write a comment..."></textarea>
+											</div>
+										</form>
+										<hr class="m-tb-5">
+										<div class="comments">
+											<ul class="media-list">
+												<li class="media">
+													<a href="#" class="pull-left"><img src="holder.js/32x32" alt="" class="media-object"></a>
+													<div class="media-body">
+														<p><a href=""><strong>Michiel Dekker</strong></a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, unde assumenda sint.</p>
+													</div>
+													<hr class="m-tb-5">
+												</li>
+												<li class="media">
+													<a href="#" class="pull-left"><img src="holder.js/32x32" alt="" class="media-object"></a>
+													<div class="media-body">
+														<p><a href=""><strong>Michiel Dekker</strong></a>Eaque libero sapiente quas nemo enim earum dolore molestiae fuga officia culpa!</p>
+													</div>
+													<hr class="m-tb-5">
+												</li>
+												<li class="media">
+													<a href="#" class="pull-left"><img src="holder.js/32x32" alt="" class="media-object"></a>
+													<div class="media-body">
+														<p><a href=""><strong>Michiel Dekker</strong></a>Blanditiis obcaecati voluptates saepe vero eius ullam quod perspiciatis provident iure odit.</p>
+													</div>
+													<hr class="m-tb-5">
+												</li>
+											</ul>
+										</div>
+									</div>
 								</div>
-								<div class="panel panel-default">
-									<img class="col-sm-12" src="http://placehold.it/500/" alt="">
-									<div class="clear"></div>
-								</div>
+								
 							</div>
 							<div class="col-xs-12 col-md-4">
 								<div class="panel panel-default">
@@ -128,8 +199,12 @@
 											<td>Tirana, Tirana</td>
 										</tr>
 										<tr>
-											<td class="text-center"><span class="text-big">205 </span></td>
-											<td>supporters</td>
+											<td class="text-center"><span id="campaign-supporter-counter"class="text-big">205</span></td>
+											<td> supporters</td>
+										</tr>
+										<tr>
+											<td class="text-center"><span id="campaign-follower-counter" class="text-big">360</span></td>
+											<td> followers</td>
 										</tr>
 									</table>
 									<button id="btn-support-campaign" class="btn btn-block btn-primary">Support this campaign</button>
@@ -180,15 +255,6 @@
 										<a href="#"><img src="http://placehold.it/40/ddf" alt=""> <span class="h4 m-l-20">John Doe</span></a>
 									</div>
 								</div>
-								<div class="panel panel-default">
-									<div class="panel-heading">
-										<h4 class="text-center">Upcoming events</h4>
-									</div>
-									<div class="panel-body">
-										
-
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -201,8 +267,18 @@
 	</div>
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.autosize.min.js"></script>
 	<script src="js/main.js"></script>
-	<!-- JavaScript Includes -->
+	<script src="js/holder.js"></script>
+	<script type="text/javascript">
+    	$('.comment-input').keydown(function(event) {
+	        if (event.keyCode == 13) {
+
+	            $(this.form).submit();
+	            return false;
+	         }
+    	});
+	</script>
 
 </body>
 </html>

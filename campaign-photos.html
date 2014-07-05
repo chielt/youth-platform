@@ -32,11 +32,11 @@
 	    	<nav class="blog-nav col-md-10 col-md-offset-2">
 	      		<a class="blog-nav-item" href="index.html"><strong>Youth</strong>Platform</a>
 		        <a class="blog-nav-item" href="blog.html">Blog</a>
-		        <a class="blog-nav-item active" href="#">Campaigns</a>
-		        <a class="blog-nav-item" href="#">Events</a>
+		        <a class="blog-nav-item active" href="campaigns-feed.html">Campaigns</a>
+		        <a class="blog-nav-item" href="events-feed.html">Events</a>
 		        <a class="blog-nav-item" href="creativity.html">Creativity</a>
 		        <a class="blog-nav-item" href="qanda.html">Questions &amp; Answers</a>
-		        <a class="blog-nav-item" href="#">Discussions</a> 
+		        <a class="blog-nav-item" href="discussion.html">Discussions</a> 
 	    	</nav>
 	    </div>
     </div>
@@ -49,11 +49,31 @@
 					<div class="clear"></div>
 				</div>
 				<div class="sidebar-category">
-					
+					<ul class="nav nav-pills nav-stacked">
+						<li><a href="campaigns-feed.html">Campaign Feed</a></li>
+						<li class="active"><a href="campaigns-list.html">All campaigns</a></li>
+					</ul>
+					<table class="table m-t-30">
+						<thead>
+							<tr>
+								<th>My Campaigns</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="campaign-page.html">Bin It</a></td>
+							</tr>
+							<tr>
+								<td>
+									<button class="pull-right btn btn-default"><span class="h5"><span class="glyphicon glyphicon-plus"></span> CREATE Campaign</span></button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 			<div class="col-md-7" id="campaign-page">
-				<div class="page-header"><h1 class="text-center">BIN IT! <br> <small>It's only fair...</small></h1></div>
+				<div class="panel panel-default"><h1 class="text-center">BIN IT! <br> <small>It's only fair...</small></h1></div>
 				<nav class="navbar navbar-default" role="navigation">
 				 	<div class="container-fluid">
 					    <!-- Brand and toggle get grouped for better mobile display -->
@@ -70,7 +90,10 @@
 					      	<ul class="nav navbar-nav">
 								<li><a href="campaign-page.html">Home</a></li>
 								<li class="active"><a href="campaign-photos.html">Photos <span class="label label-primary">18</span></a></li>
-								<li><a href="#">Events <span class="label label-primary">3</span></a></li>
+								<li><a href="campaign-events.html">Events <span class="label label-primary">3</span></a></li>
+								<li><a href="campaign-files.html">Files</span></a></li>
+								<li><a href="campaign-members.html">Members</a></li>
+								<li><a href="campaign-discussion.html">Discussion</a></li>
 							</ul>
 					    </div><!-- /.navbar-collapse -->
 				  	</div><!-- /.container-fluid -->
@@ -86,7 +109,11 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-camera"></span> 12 photos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-camera"></span> 12 photos
+								    		<br>
+								    		<span>&nbsp;</span>
+								    	</span>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -96,7 +123,12 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-film"></span> 2 videos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-film"></span> 2 videos
+								    		<br>
+								    		<span>&nbsp;</span>
+								    	</span>
+								    	<br>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -106,7 +138,12 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-camera"></span> 4 photos <span class="glyphicon glyphicon-film"></span> 2 videos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-camera"></span> 6 photos
+								    		<br>
+								    		<span class="glyphicon glyphicon-film"></span> 4 videos
+								    	</span>
+								    	<br>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -116,7 +153,11 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-camera"></span> 12 photos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-camera"></span> 12 photos
+								    		<br>
+								    		<span>&nbsp;</span>
+								    	</span>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -126,7 +167,12 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-film"></span> 2 videos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-film"></span> 2 videos
+								    		<br>
+								    		<span>&nbsp;</span>
+								    	</span>
+								    	<br>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -136,7 +182,12 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-camera"></span> 4 photos <span class="glyphicon glyphicon-film"></span> 2 videos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-camera"></span> 6 photos
+								    		<br>
+								    		<span class="glyphicon glyphicon-film"></span> 4 videos
+								    	</span>
+								    	<br>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -146,7 +197,11 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-camera"></span> 12 photos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-camera"></span> 12 photos
+								    		<br>
+								    		<span>&nbsp;</span>
+								    	</span>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -156,7 +211,12 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-film"></span> 2 videos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-film"></span> 2 videos
+								    		<br>
+								    		<span>&nbsp;</span>
+								    	</span>
+								    	<br>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -166,7 +226,12 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-camera"></span> 4 photos <span class="glyphicon glyphicon-film"></span> 2 videos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-camera"></span> 6 photos
+								    		<br>
+								    		<span class="glyphicon glyphicon-film"></span> 4 videos
+								    	</span>
+								    	<br>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -176,7 +241,11 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-camera"></span> 12 photos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-camera"></span> 12 photos
+								    		<br>
+								    		<span>&nbsp;</span>
+								    	</span>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -186,7 +255,12 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-film"></span> 2 videos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-film"></span> 2 videos
+								    		<br>
+								    		<span>&nbsp;</span>
+								    	</span>
+								    	<br>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -196,7 +270,12 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-camera"></span> 4 photos <span class="glyphicon glyphicon-film"></span> 2 videos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-camera"></span> 6 photos
+								    		<br>
+								    		<span class="glyphicon glyphicon-film"></span> 4 videos
+								    	</span>
+								    	<br>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -206,7 +285,11 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-camera"></span> 12 photos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-camera"></span> 12 photos
+								    		<br>
+								    		<span>&nbsp;</span>
+								    	</span>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -216,7 +299,12 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-film"></span> 2 videos</span>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-film"></span> 2 videos
+								    		<br>
+								    		<span>&nbsp;</span>
+								    	</span>
+								    	<br>
 							    	</div>
 							  	</div>
 								<div class="col-xs-6 col-md-3">
@@ -226,37 +314,12 @@
 									    </a>
 								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-camera"></span> 4 photos <span class="glyphicon glyphicon-film"></span> 2 videos</span>
-							    	</div>
-							  	</div>
-								<div class="col-xs-6 col-md-3">
-								    <div class="thumbnail">
-									    <a href="campaign-photos-album.html" >
-									      <img src="http://placehold.it/200" alt="">
-									    </a>
-								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
+								    	<span class="small">
+								    		<span class="glyphicon glyphicon-camera"></span> 6 photos
+								    		<br>
+								    		<span class="glyphicon glyphicon-film"></span> 4 videos
+								    	</span>
 								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-camera"></span> 12 photos</span>
-							    	</div>
-							  	</div>
-								<div class="col-xs-6 col-md-3">
-								    <div class="thumbnail">
-									    <a href="campaign-photos-album.html" >
-									      <img src="http://placehold.it/200" alt="">
-									    </a>
-								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
-								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-film"></span> 2 videos</span>
-							    	</div>
-							  	</div>
-								<div class="col-xs-6 col-md-3">
-								    <div class="thumbnail">
-									    <a href="campaign-photos-album.html" >
-									      <img src="http://placehold.it/200" alt="">
-									    </a>
-								    	<a href="campaign-photos-album.html" class="small">Album Name</a>
-								    	<br>
-								    	<span class="small"><span class="glyphicon glyphicon-camera"></span> 4 photos <span class="glyphicon glyphicon-film"></span> 2 videos</span>
 							    	</div>
 							  	</div>
 							</div>

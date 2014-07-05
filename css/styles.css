@@ -10,6 +10,32 @@ div.panel {
 	padding: 15px;
 }
 
+
+.text-big {
+	font-weight: 500;
+	font-size: 2em;
+}
+
+
+.block {
+	display: block;
+}
+
+
+.block-100 {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+a.no-underline {
+	text-decoration: none;
+}
+
+a.black {
+	color: #000;
+}
+
 /* SIDEBAR */
 
 div.sidebar-profile, div.sidebar-category {
@@ -86,6 +112,9 @@ a.question-title {
 	max-height: 120px;
 	overflow: hidden;
 }
+
+
+/*CAMPAIGNS*/
 div#campaign-page ul.nav-pills {
 	font-size: 1.1em;
 	font-weight: bolder;
@@ -124,10 +153,6 @@ div#campaign-page span.meta-sub {
 	font-size: 0.5em;
 }
 
-.text-big {
-	font-weight: 500;
-	font-size: 2em;
-}
 
 div#petition-box .panel-heading{
 	background: #5CB85C;
@@ -147,73 +172,115 @@ div#petition-box .panel-heading h3{
 }
 
 textarea#campaign-status-input {
-	width: 100%;
+   	width: 100%;
+    box-sizing: border-box; 
+	display: block;
+	resize: none;
 	border: 0;
 }
+
+textarea#campaign-status-input:hover, textarea#campaign-status-input:focus {
+	border: 1px solid #ddd !important;
+}
+
 
 .campaign-page-feed .thumbnail img{
 	width: 100%;
 }
 
 
-
-
-.block {
-	display: block;
+#campaign-list .image-container img{
+	width: 100%;
 }
 
-.m-0 { margin: 0;}
-.m-tb-0 { margin-top: 0; margin-bottom: 0;}
-.m-lr-0 { margin-left: 0; margin-bottom: 0;}
-.m-t-0 { margin-top: 5px;}
-.m-r-0 { margin-right: 5px;}
-.m-b-0 { margin-bottom: 5px;}
-.m-l-0 { margin-left: 5px;}
+#campaign-list a {
+	text-decoration: none;
+}
 
-.m-5 { margin: 5;}
-.m-tb-5 { margin-top: 5; margin-bottom: 5;}
-.m-lr-5 { margin-left: 5; margin-bottom: 5;}
-.m-t-5 { margin-top: 5px;}
-.m-r-5 { margin-right: 5px;}
-.m-b-5 { margin-bottom: 5px;}
-.m-l-5 { margin-left: 5px;}
+.comment-pane {
+	padding-top: 20px;
+}
 
-.m-10 { margin: 10;}
-.m-tb-10 { margin-top: 10; margin-bottom: 10;}
-.m-lr-10 { margin-left: 10; margin-bottom: 10;}
-.m-t-10 { margin-top: 10px;}
-.m-r-10 { margin-right: 10px;}
-.m-b-10 { margin-bottom: 10px;}
-.m-l-10 { margin-left: 10px;}
+.comment-pane textarea {
+	width: 100%;
+	resize: none;
+	margin: 0;
+}
 
-.m-15 { margin: 15;}
-.m-tb-15 { margin-top: 15; margin-bottom: 15;}
-.m-lr-15 { margin-left:15; margin-bottom: 15;}
-.m-t-15 { margin-top: 15px;}
-.m-r-15 { margin-right: 15px;}
-.m-b-15 { margin-bottom: 15px;}
-.m-l-15 { margin-left: 15px;}
+.comment-pane textarea:hover, .comment-pane textarea:selected, .comment-pane textarea:focus {
+	border: 1xp solid #ddd;
+}
 
-.m-20 { margin: 20;}
-.m-tb-20 { margin-top: 20; margin-bottom: 20;}
-.m-lr-20 { margin-left: 20; margin-bottom: 20;}
-.m-t-20 { margin-top: 20px;}
-.m-r-20 { margin-right: 20px;}
-.m-b-20 { margin-bottom: 20px;}
-.m-l-20 { margin-left: 20px;}
+div.post-heading {
+	height: 32px;
+	line-height: 32px;
+}
 
-.m-25 { margin: 25;}
-.m-tb-25 { margin-top: 25; margin-bottom: 25;}
-.m-lr-25 { margin-left: 25; margin-bottom: 25;}
-.m-t-25 { margin-top: 25px;}
-.m-r-25 { margin-bright: 25px;}
-.m-b-25 { margin-bottom: 25px;}
-.m-l-25 { margin-left: 25px;}
+div.comment-text{
+	overflow: hidden;
+	padding: 0 10px;
+}
 
-.m-30 { margin: 30;}
-.m-tb-30 { margin-top: 30; margin-bottom: 30;}
-.m-lr-30 { margin-left: 30; margin-bottom: 30;}
-.m-t-30 { margin-top: 30px;}
-.m-r-30 { margin-right: 30px;}
-.m-b-30 { margin-bottom: 30px;}
-.m-l-30 { margin-left: 30px;}
+
+textarea#answer-input {
+	width: 100%;
+	border: 1px solid #ccc;
+}
+.m-0 { margin: 0 !important;}
+.m-tb-0 { margin-top: 0 !important; margin-bottom: 0 !important;}
+.m-lr-0 { margin-left: 0 !important; margin-right: 0 !important;}
+.m-t-0 { margin-top: 5px !important;}
+.m-r-0 { margin-right: 5px !important;}
+.m-b-0 { margin-bottom: 5px !important;}
+.m-l-0 { margin-left: 5px !important;}
+
+.m-5 { margin: 5px !important;}
+.m-tb-5 { margin-top: 5px !important; margin-bottom: 5px !important;}
+.m-lr-5 { margin-left: 5px !important; margin-right: 5px !important;}
+.m-t-5 { margin-top: 5px !important;}
+.m-r-5 { margin-right: 5px !important;}
+.m-b-5 { margin-bottom: 5px !important;}
+.m-l-5 { margin-left: 5px !important;}
+
+.m-10 { margin: 10px !important;}
+.m-tb-10 { margin-top: 10px !important; margin-bottom: 10px !important;}
+.m-lr-10 { margin-left: 10px !important; right: 10px !important;}
+.m-t-10 { margin-top: 10px !important;}
+.m-r-10 { margin-right: 10px !important;}
+.m-b-10 { margin-bottom: 10px !important;}
+.m-l-10 { margin-left: 10px !important;}
+
+.m-15 { margin: 15px !important;}
+.m-tb-15 { margin-top: 15px !important; margin-bottom: 15px !important;}
+.m-lr-15 { margin-left:15px !important; margin-right: 15px !important;}
+.m-t-15 { margin-top: 15px !important;}
+.m-r-15 { margin-right: 15px !important;}
+.m-b-15 { margin-bottom: 15px !important;}
+.m-l-15 { margin-left: 15px !important;}
+
+.m-20 { margin: 20px !important;}
+.m-tb-20 { margin-top: 20px !important; margin-bottom: 20px !important;}
+.m-lr-20 { margin-left: 20px !important; margin-right: 20px !important;}
+.m-t-20 { margin-top: 20px !important;}
+.m-r-20 { margin-right: 20px !important;}
+.m-b-20 { margin-bottom: 20px !important;}
+.m-l-20 { margin-left: 20px !important;}
+
+.m-25 { margin: 25px !important;}
+.m-tb-25 { margin-top: 25px !important; margin-bottom: 25px !important;}
+.m-lr-25 { margin-left: 25px !important; margin-right: 25px !important;}
+.m-t-25 { margin-top: 25px !important;}
+.m-r-25 { margin-bright: 25px !important;}
+.m-b-25 { margin-bottom: 25px !important;}
+.m-l-25 { margin-left: 25px !important;}
+
+.m-30 { margin: 30px !important;}
+.m-tb-30 { margin-top: 30px !important; margin-bottom: 30px !important;}
+.m-lr-30 { margin-left: 30px !important; margin-right: 30px !important;}
+.m-t-30 { margin-top: 30px !important;}
+.m-r-30 { margin-right: 30px !important;}
+.m-b-30 { margin-bottom: 30px !important;}
+.m-l-30 { margin-left: 30px !important;}
+
+
+
